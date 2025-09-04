@@ -15,7 +15,8 @@ It ensures that critical logs are:
 - 🧹 Automated cleanup of daily log archives.
 - ⚒️ Dual delivery mechanism (continuous history + daily summary).
 - 🔧 No manual intervention needed.  
-- 🛡️ Lightweight, designed for OT/ICS systems.  
+- 🛡️ Lightweight, designed for OT/ICS systems.
+- ✅ Easier for OT engineers/auditors to check history without looking at console. 
 
 ---
 
@@ -39,5 +40,5 @@ Ideal for **OT environments** where log integrity, availability, and archival ar
 - 🔒 SFTP/FTPS support.  
 - 📊 Dashboard for log visualization.  
 - 🧾 Compliance-ready log retention policies.
-- 🌍 Push logs to SIEM (Splunk, ELK, QRadar) instead of FTP.
+- 🌍 Push logs to SIEM (Splunk, ELK, QRadar) for more usability
 - 🔎 Add checksum validation for file integrity.  
