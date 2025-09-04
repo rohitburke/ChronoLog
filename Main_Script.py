@@ -21,11 +21,11 @@ HISTORY_SERVER = {
 }
 
 # DM Server (always gets latest log only)
-FDM_SERVER = {
+DM_SERVER = {
     "host": "192.168.X.X",   # Replace with DM server IP
     "user": "your_user",
     "passwd": "your_password",
-    "dir": "/fdm_latest"
+    "dir": "/dm_latest"
 }
 
 # -----------------------------
@@ -112,7 +112,7 @@ def main():
                     ftp_upload(HISTORY_SERVER, archive_path, archive_filename)
 
                     # Step 3: Upload latest log to FDM Server
-                    ftp_upload(FDM_SERVER, archive_path, "Server_Log_latest.txt")
+                    ftp_upload(DM_SERVER, archive_path, "Server_Log_latest.txt")
 
             time.sleep(CHECK_INTERVAL)
 
