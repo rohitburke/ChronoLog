@@ -12,7 +12,8 @@ It ensures that critical logs are:
 ---
 ## 📂 **Project Flow**   
    
-<img width="478" height="735" alt="image" src="https://github.com/user-attachments/assets/98e15fbd-778e-4f20-91c1-75bb21cb851f" />
+<img width="1491" height="566" alt="image" src="https://github.com/user-attachments/assets/121b12ba-dc9c-4e1f-a177-8d910e65ec23" />
+
 
 ---
 
